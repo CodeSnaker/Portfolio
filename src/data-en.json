@@ -1,0 +1,48 @@
+{
+    "contacts": {
+        "email": "mattheyvintar@gmail.com",
+        "phone": "06 20 06 57 47"
+    },
+    "skills": {
+        "code": ["Python", "Javascript", "html/css", "C", "C++"],
+        "tools": {
+            "python": [
+                "pandas",
+                "numPy",
+                "spaCy",
+                "plotly",
+                "Requests",
+                "tkinter"
+            ],
+            "javascript": [
+                "React",
+                "Sass",
+                "node.js",
+                "express.js",
+                "mongoose"
+            ],
+            "dev": ["Git/Github/Gitlab", "MongoDB", "VS code", "postman"],
+            "cyber": ["nmap"]
+        },
+        "knowledge": [
+            "Project planning",
+            "Frontend development",
+            "Backend development",
+            "Website optimization & debugging",
+            "Natural Language Processing",
+            "Data processing",
+            "Software & UI development"
+        ],
+        "languages": [
+            { "name": "French", "level": "Native Language" },
+            { "name": "English", "level": "C1" },
+            { "name": "German", "level": "A1" },
+            {
+                "name": "Vietnamese",
+                "level": "Native Language"
+            }
+        ]
+    },
+    "projects": [{ "name": "", "description": "", "url": "" }],
+    "experience": [{ "name": "", "description": "", "duration": "" }]
+}
