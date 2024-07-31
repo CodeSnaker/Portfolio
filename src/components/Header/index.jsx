@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import LanguageSwitcher from './LanguageSwitcher/index';
 import './index.scss';
 
 const Header = () => {
-    const currentLocation = useLocation();
+    const language = useSelector((state) => state.languageSwitch.language);
     const [scrollDir, setScrollDir] = useState('scrolling-up');
 
     useEffect(() => {
@@ -43,11 +44,14 @@ const Header = () => {
     }, [scrollDir]);
 
     return (
-        <StyledHeader className={scrollDir}>
+        <header className={scrollDir}>
             <nav>
-                <a href='#skills'>Compétences</a>
+                <a href='#skills'>
+                    {language === 'en' ? 'Skills' : 'Compétences'}
+                </a>
             </nav>
-        </StyledHeader>
+            <LanguageSwitcher />
+        </header>
     );
 };
 

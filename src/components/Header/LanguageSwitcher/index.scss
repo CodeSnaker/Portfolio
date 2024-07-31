@@ -1,0 +1,35 @@
+.language-switch {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 30px;
+    height: 24px;
+    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    .language-switch-icon {
+        .fr {
+            border-right: 1px solid white;
+            padding-right: 3px;
+
+            .active {
+                color: #e9d77e;
+            }
+        }
+
+        .en {
+            padding-left: 3px;
+            border-left: 1px solid white;
+            .active {
+                color: #e9d77e;
+            }
+        }
+    }
+
+    & > :hover {
+        cursor: pointer;
+    }
+}
