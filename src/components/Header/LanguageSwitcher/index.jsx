@@ -7,34 +7,24 @@ const LanguageSwitcher = () => {
     const dispatch = useDispatch();
 
     return (
-        <div className='language-switch' onClick={() => dispatch(toggle())}>
-            <div
+        <table className='language-switch' onClick={() => dispatch(toggle())}>
+            <th
                 className={
                     'language-switch-icon fr ' +
                     (language === 'fr' ? 'active' : '')
                 }
-                style={
-                    language === 'fr'
-                        ? { color: 'yellow', 'text-decoration': 'underline' }
-                        : {}
-                }
             >
                 fr
-            </div>
-            <div
+            </th>
+            <th
                 className={
                     'language-switch-icon en ' +
                     (language === 'en' ? 'active' : '')
                 }
-                style={
-                    language === 'en'
-                        ? { color: 'yellow', 'text-decoration': 'underline' }
-                        : {}
-                }
             >
                 en
-            </div>
-        </div>
+            </th>
+        </table>
     );
 };
 

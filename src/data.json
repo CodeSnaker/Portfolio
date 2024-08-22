@@ -1,28 +1,39 @@
 {
     "fr": {
+        "personalInformation": {
+            "name": "Alexis MATTHEY-VINTAR",
+            "description": ""
+        },
         "contacts": {
             "email": "mattheyvintar@gmail.com",
             "phone": "06 20 06 57 47"
         },
         "skills": {
-            "code": ["Python", "Javascript", "html/css", "C", "C++"],
+            "codingLanguages": [
+                { "name": "Python", "level": "80%" },
+                { "name": "Javascript", "level": "70%" },
+                { "name": "html/css", "level": "70%" },
+                { "name": "C", "level": "65%" },
+                { "name": "C++", "level": "50%" }
+            ],
             "tools": {
-                "python": [
-                    "pandas",
-                    "numPy",
-                    "spaCy",
-                    "plotly",
-                    "Requests",
-                    "tkinter"
-                ],
-                "javascript": [
+                "dataProcessing": ["pandas", "numPy", "spaCy", "plotly"],
+                "frontendAndUI": [
                     "React",
                     "Sass",
-                    "node.js",
-                    "express.js",
-                    "mongoose"
+                    "React-Redux",
+                    "Requests (python)",
+                    "tkinter (python)"
                 ],
-                "dev": ["Git/Github/Gitlab", "MongoDB", "VS code", "postman"],
+                "backend": ["node.js", "express.js", "mongoose/MongoDB"],
+                "dev": [
+                    "Git/Github/Gitlab",
+                    "VS code",
+                    "postman",
+                    "Jupyter Notebook",
+                    "pyCharm",
+                    "Expressions Régulières"
+                ],
                 "cyber": ["nmap"]
             },
             "knowledge": [
@@ -44,8 +55,57 @@
                 }
             ]
         },
-        "projects": [{ "name": "", "description": "", "url": "" }],
-        "experience": [{ "name": "", "description": "", "duration": "" }]
+        "projects": [
+            {
+                "name": "Sophie Bluel",
+                "description": "javascript frontend",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Booki",
+                "description": "html/css frontend",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Mon Vieux Grimoire",
+                "description": "Node.JS / Express.js / MongoDB - Mongoose",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Kasa",
+                "description": "React front app",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Nina Carducci",
+                "description": "Debug + Optimisation",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Site Web club de sport",
+                "description": "",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            }
+        ],
+        "experience": [
+            {
+                "name": "La Poste",
+                "description": "Stage - Support de développement Cybersecurité + Data Analysis",
+                "duration": "6 mois"
+            }
+        ]
     },
     "en": {
         "contacts": {
@@ -53,24 +113,31 @@
             "phone": "06 20 06 57 47"
         },
         "skills": {
-            "code": ["Python", "Javascript", "html/css", "C", "C++"],
+            "codingLanguages": [
+                { "name": "Python", "level": "80%" },
+                { "name": "Javascript", "level": "70%" },
+                { "name": "html/css", "level": "70%" },
+                { "name": "C", "level": "65%" },
+                { "name": "C++", "level": "50%" }
+            ],
             "tools": {
-                "python": [
-                    "pandas",
-                    "numPy",
-                    "spaCy",
-                    "plotly",
-                    "Requests",
-                    "tkinter"
-                ],
-                "javascript": [
+                "dataProcessing": ["pandas", "numPy", "spaCy", "plotly"],
+                "frontendAndUI": [
                     "React",
                     "Sass",
-                    "node.js",
-                    "express.js",
-                    "mongoose"
+                    "React-Redux",
+                    "Requests (python)",
+                    "tkinter (python)"
                 ],
-                "dev": ["Git/Github/Gitlab", "MongoDB", "VS code", "postman"],
+                "backend": ["node.js", "express.js", "mongoose/MongoDB"],
+                "dev": [
+                    "Git/Github/Gitlab",
+                    "VS code",
+                    "postman",
+                    "Jupyter Notebook",
+                    "pyCharm",
+                    "Regular Expressions"
+                ],
                 "cyber": ["nmap"]
             },
             "knowledge": [
@@ -94,13 +161,54 @@
         },
         "projects": [
             {
-                "name": "",
+                "name": "Sophie Bluel",
+                "description": "javascript frontend",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Booki",
+                "description": "html/css frontend",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Mon Vieux Grimoire",
+                "description": "Node.JS / Express.js / MongoDB - Mongoose",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Kasa",
+                "description": "React front app",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Nina Carducci",
+                "description": "Debug + Optimisation",
+                "githubLink": "",
+                "pageLink": "",
+                "thumbnail": ""
+            },
+            {
+                "name": "Sport club website",
                 "description": "",
                 "githubLink": "",
                 "pageLink": "",
                 "thumbnail": ""
             }
-        ], //sophie bluel, booki, backend, html/css, javascript, react, + site club
-        "experience": [{ "name": "", "description": "", "duration": "" }]
+        ],
+        "experience": [
+            {
+                "name": "La Poste",
+                "description": "Dev support Cybersecurity + Data Analysis",
+                "duration": "6 mois"
+            }
+        ]
     }
 }

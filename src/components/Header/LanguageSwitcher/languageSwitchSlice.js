@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = { language: 'fr' };
+var initialState = { language: '' };
 
 export const languageSwitchSlice = createSlice({
     name: 'languageSwitch',

@@ -1,35 +1,37 @@
 .language-switch {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
-    width: 30px;
+    width: 40px;
     height: 24px;
     font-size: 10px;
-    color: white;
     border: 1px solid white;
     border-radius: 5px;
+    margin-right: 20px;
 
     .language-switch-icon {
-        .fr {
+        &.fr {
+            padding: 0 4px;
             border-right: 1px solid white;
-            padding-right: 3px;
 
-            .active {
+            &.active {
                 color: #e9d77e;
+                text-decoration: underline;
             }
         }
 
-        .en {
-            padding-left: 3px;
+        &.en {
+            padding: 0 4px;
             border-left: 1px solid white;
-            .active {
-                color: #e9d77e;
-            }
+        }
+
+        &.fr.active,
+        &.en.active {
+            color: #e9d77e;
+            text-decoration: underline;
         }
     }
 
-    & > :hover {
+    &:hover {
         cursor: pointer;
     }
 }

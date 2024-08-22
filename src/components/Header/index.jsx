@@ -8,7 +8,7 @@ const Header = () => {
     const [scrollDir, setScrollDir] = useState('scrolling-up');
 
     useEffect(() => {
-        const threshold = 0;
+        const threshold = 40;
         let lastScrollY = window.scrollY;
         let ticking = false;
 
@@ -49,6 +49,13 @@ const Header = () => {
                 <a href='#skills'>
                     {language === 'en' ? 'Skills' : 'Compétences'}
                 </a>
+                <a href='#projects'>
+                    {language === 'en' ? 'Projects' : 'Projets'}
+                </a>
+                <a href='#experience'>
+                    {language === 'en' ? 'Experience' : 'Expérience'}
+                </a>
+                <a href='#contacts'>Contacts</a>
             </nav>
             <LanguageSwitcher />
         </header>

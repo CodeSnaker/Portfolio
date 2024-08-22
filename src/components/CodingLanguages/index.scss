@@ -1,0 +1,18 @@
+@import '../../style/colors.scss';
+
+.coding-languages-section {
+    padding: 10px 60px 70px;
+    background-color: $background-grey;
+
+    h1 {
+        margin: 10px 0;
+    }
+
+    .progress-bars {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

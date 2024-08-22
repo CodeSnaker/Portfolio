@@ -1,0 +1,39 @@
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+    .fa-solid,
+    .fa-brands {
+        font-size: 70px;
+
+        &.fa-html5 {
+            color: red;
+        }
+
+        &.fa-wrench {
+            color: white;
+        }
+
+        &.fa-database {
+            color: white;
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .tools-list {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+}
