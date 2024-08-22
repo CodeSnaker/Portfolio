@@ -1,11 +1,11 @@
 import CodingLanguages from '../../components/CodingLanguages';
-import ToolsList from '../../components/ToolsShowcase/ToolsList';
 import ToolsShowcase from '../../components/ToolsShowcase';
+import AboutMe from '../../components/AboutMe';
 
 const Home = () => {
     return (
         <>
-            <h1>Hello</h1>
+            <AboutMe />
             <CodingLanguages />
             <ToolsShowcase />
         </>

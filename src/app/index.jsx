@@ -41,7 +41,7 @@ const App = () => {
 
         const errorCallback = (errPosition) => {
             console.log('error callback');
-            dispatch(setEn());
+            dispatch(setFr());
         };
 
         if (navigator.geolocation) {
