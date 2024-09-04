@@ -11,7 +11,7 @@ const AboutMe = () => {
             : data.fr.personalInformation.description;
 
     return (
-        <section className='about-me'>
+        <section className='about-me' id='about-me'>
             <h1>{language === 'en' ? 'About me' : 'À propos de moi'}</h1>
             <p>{description}</p>
         </section>

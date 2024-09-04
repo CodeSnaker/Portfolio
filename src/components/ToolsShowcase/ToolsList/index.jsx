@@ -23,7 +23,7 @@ const ToolsList = ({ category = 'dev' }) => {
                     </li>
                 );
             }
-            title = language === 'en' ? 'Tools' : 'Outils';
+            title = language === 'en' ? 'Other' : 'Autre';
             break;
 
         case 'frontend':

@@ -7,11 +7,9 @@ const ToolsShowcase = () => {
 
     return (
         <section className='tools-showcase'>
-            <h1>
-                {language === 'en'
-                    ? 'Tools that I have used'
-                    : "Outils que j'ai déjà utilisé"}
-            </h1>
+            <h2 className='tools-title'>
+                {language === 'en' ? 'Tools' : 'Outils'}
+            </h2>
             <div className='toolslists-container'>
                 <ToolsList category='frontend' />
                 <ToolsList category='backend' />

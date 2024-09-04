@@ -26,8 +26,8 @@ const CodingLanguages = () => {
         <section className='coding-languages-section'>
             <h2>
                 {language === 'en'
-                    ? 'Coding languages'
-                    : 'Langages informatiques'}
+                    ? 'Language mastery'
+                    : 'Maîtrise des langages'}
             </h2>
             <div className='progress-bars'>{bars}</div>
         </section>

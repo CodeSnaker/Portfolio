@@ -1,0 +1,16 @@
+@import '../../style/colors';
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background-dark-grey;
+    padding: 20px 60px;
+    gap: 200px;
+
+    h1 {
+        color: white;
+        margin-bottom: 0;
+    }
+}
