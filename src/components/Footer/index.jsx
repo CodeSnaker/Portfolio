@@ -10,11 +10,9 @@ const Footer = () => {
                     </a>
                 </li>
                 <li className='telephone'>06.20.06.57.47</li>
-                <li className='linkedin'>Linked In</li>
+                <li className='linkedin'>LinkedIn</li>
                 <li className='github'>
-                    <a href='https://github.com/CodeSnaker/Projet_5_debug_optimisation'>
-                        Github
-                    </a>
+                    <a href='https://github.com/CodeSnaker/'>Github</a>
                 </li>
             </ul>
         </footer>

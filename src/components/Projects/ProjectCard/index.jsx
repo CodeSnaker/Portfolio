@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './index.scss';
 
 const ProjectCard = ({ dataObject }) => {
@@ -9,19 +8,16 @@ const ProjectCard = ({ dataObject }) => {
     } else {
         link = dataObject.githubLink;
     }
+
     return (
         <div className='project-container'>
             <div className='project-text'>
                 <h2>{dataObject.name}</h2>
                 <p>{dataObject.description}</p>
             </div>
-            <Link
-                to={{ pathname: link }}
-                className='project-card'
-                target='_blank'
-            >
+            <a href={link} className='project-card' target='_blank'>
                 <img src={dataObject.thumbnail} />
-            </Link>
+            </a>
         </div>
     );
 };

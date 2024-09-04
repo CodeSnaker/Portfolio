@@ -23,7 +23,7 @@ const CodingLanguages = () => {
     }
 
     return (
-        <section className='coding-languages-section'>
+        <section className='coding-languages-section' id='skills'>
             <h2>
                 {language === 'en'
                     ? 'Language mastery'

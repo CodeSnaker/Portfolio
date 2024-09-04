@@ -46,16 +46,15 @@ const Header = () => {
     return (
         <header className={scrollDir}>
             <nav>
+                <a href='#about-me'>
+                    {language === 'en' ? 'About me' : 'À propos de moi'}
+                </a>
                 <a href='#skills'>
                     {language === 'en' ? 'Skills' : 'Compétences'}
                 </a>
                 <a href='#projects'>
                     {language === 'en' ? 'Projects' : 'Projets'}
                 </a>
-                <a href='#experience'>
-                    {language === 'en' ? 'Experience' : 'Expérience'}
-                </a>
-                <a href='#contacts'>Contacts</a>
             </nav>
             <LanguageSwitcher />
         </header>
