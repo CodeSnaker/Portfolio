@@ -1,4 +1,5 @@
 @import '../../style/colors.scss';
+@import '../../style/media';
 
 .coding-languages-section {
     padding: 10px 60px 70px;
@@ -14,5 +15,21 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+    }
+}
+
+@media (max-width: $mobile-max-width) {
+    .coding-languages-section {
+        padding: 20px 20px 40px 20px;
+
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .progress-bars {
+            margin: 0;
+            gap: 20px;
+        }
     }
 }

@@ -12,6 +12,7 @@
 
 @media (max-width: 570px) {
     .about-me > p {
-        word-break: break-all;
+        text-align: justify;
+        font-size: 15px;
     }
 }

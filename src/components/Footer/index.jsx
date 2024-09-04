@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <ul className='contacts'>
-                <li className='email' mailt>
+                <li className='email'>
                     <a href='mailto:mattheyvintar@gmail.com'>
                         mattheyvintar@gmail.com
                     </a>

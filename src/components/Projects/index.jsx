@@ -11,7 +11,9 @@ const Projects = () => {
     let projectCards = [];
 
     for (const project of projects) {
-        projectCards.push(<ProjectCard dataObject={project} />);
+        projectCards.push(
+            <ProjectCard dataObject={project} key={project.name} />
+        );
     }
 
     return (

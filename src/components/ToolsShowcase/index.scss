@@ -1,4 +1,5 @@
 @import '../../style/colors';
+@import '../../style/media';
 
 .tools-showcase {
     display: flex;
@@ -18,5 +19,23 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: baseline;
+    }
+}
+
+@media (max-width: $mobile-max-width) {
+    .tools-showcase {
+        padding: 10px 20px;
+
+        .tools-title {
+            margin-bottom: 0;
+        }
+
+        .toolslists-container {
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+        }
     }
 }

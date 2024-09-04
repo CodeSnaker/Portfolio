@@ -1,4 +1,5 @@
 @import '../../style/colors';
+@import '../../style/media';
 
 .projects {
     display: flex;
@@ -12,5 +13,12 @@
     h1 {
         color: white;
         margin-bottom: 0;
+    }
+}
+
+@media (max-width: $mobile-max-width) {
+    .projects {
+        gap: 0;
+        padding: 20px;
     }
 }

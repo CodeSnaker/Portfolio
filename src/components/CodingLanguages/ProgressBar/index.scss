@@ -1,3 +1,5 @@
+@import '../../../style/media';
+
 .progress-bar {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -45,5 +47,14 @@
     .percent {
         grid-column: 8;
         font-size: 17px;
+    }
+}
+
+@media (max-width: $mobile-max-width) {
+    .progress-bar {
+        grid-template-columns: repeat(3, 1fr);
+        .bar-name {
+            font-size: 15px;
+        }
     }
 }

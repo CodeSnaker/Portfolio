@@ -1,3 +1,5 @@
+@import '../../../style/media';
+
 .tools {
     display: flex;
     flex-direction: column;
@@ -35,5 +37,17 @@
         padding: 0;
         font-size: 20px;
         margin: 20px 0;
+    }
+}
+
+@media (max-width: $mobile-max-width) {
+    .tools {
+        h2 {
+            margin: 5px 0 2px;
+        }
+
+        .tools-list {
+            // font-family: 'Sans-serif';
+        }
     }
 }
