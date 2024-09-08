@@ -14,6 +14,7 @@
 
         & > img {
             border-radius: inherit;
+            height: 100%;
             width: 100%;
             object-fit: cover;
             overflow: hidden;
@@ -56,6 +57,10 @@
 
             border-width: 0;
             border-radius: 0;
+
+            & > img {
+                object-fit: fill;
+            }
         }
 
         .project-text {
