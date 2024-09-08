@@ -6,13 +6,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: $background-dark-grey;
+    background-color: $background-grey;
     padding: 20px 60px;
-    gap: 200px;
 
     h1 {
-        color: white;
-        margin-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .projects-gallery {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 40px;
     }
 }
 
@@ -20,5 +27,13 @@
     .projects {
         gap: 0;
         padding: 20px;
+
+        h1 {
+            margin: 0;
+        }
+
+        .projects-gallery {
+            gap: unset;
+        }
     }
 }

@@ -1,6 +1,7 @@
 footer {
     display: flex;
     justify-content: center;
+    background-color: black;
 
     ul {
         display: flex;
@@ -9,11 +10,11 @@ footer {
         text-decoration: none;
 
         list-style: none;
-        color: black;
+        color: white;
 
         li > a {
             text-decoration: none;
-            color: black;
+            color: white;
 
             &:hover {
                 text-decoration: underline;

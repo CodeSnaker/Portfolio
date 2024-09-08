@@ -1,8 +1,8 @@
 {
     "fr": {
         "personalInformation": {
-            "title": "Développeur Web",
-            "description": "Initialement en formation d'électronique, je me suis tourné vers l'informatique, qui me correspondait plus. L'algorithmie et la programmation me passionnent et le bigData me fascine, et grâce à mon expérience j'ai aussi des connaissances en cybersécurité. Du frontend au backend, je suis polyvalent et sait m'adapter aux projets et aux outils."
+            "title": "Développeur Web - Diplôme RNCP niveau 5 (Bac+2)",
+            "description": "Initialement en formation d'électronique, je me suis tourné vers l'informatique, qui me correspondait plus. L'algorithmie et la programmation me passionnent et le bigData me fascine. Grâce à mon expérience j'ai aussi quelques notions en cybersécurité et des connaissances en data analysis. Du frontend au backend, je suis polyvalent et sait m'adapter aux projets et aux outils."
         },
         "contacts": {
             "email": "mattheyvintar@gmail.com",
@@ -22,8 +22,7 @@
                     "React",
                     "Sass",
                     "React-Redux",
-                    "Requests (python)",
-                    "tkinter (python)"
+                    "Requests (python)"
                 ],
                 "backend": ["node.js", "express.js", "mongoose/MongoDB"],
                 "dev": [
@@ -32,7 +31,8 @@
                     "postman",
                     "Jupyter Notebook",
                     "pyCharm",
-                    "Expressions Régulières"
+                    "Pandas",
+                    "Plotly"
                 ],
                 "cyber": ["nmap"]
             },
@@ -57,39 +57,50 @@
         },
         "projects": [
             {
-                "name": "Sophie Bluel",
-                "description": "Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Vous devez donc développer: la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client) (code à créer de zéro), la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+                "name": "Portfolio de Sophie Bluel",
+                "description": "Scénario: Ayant terminé votre dernier projet avec un peu d'avance, vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Vous devez donc développer: la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client) (code à créer de zéro), la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
                 "githubLink": "https://github.com/CodeSnaker/Javascript_dynamic_Web_Page.git",
                 "pageLink": "",
-                "thumbnail": "/sophieBluel.png"
+                "thumbnail": "/sophieBluel.png",
+                "tags": ["Html", "CSS", "Javascript", "Front-end"]
             },
             {
                 "name": "Booki",
-                "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+                "description": "Scénario: L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_2_html_css.git",
                 "pageLink": "https://codesnaker.github.io/Projet_2_html_css/",
-                "thumbnail": "/bookiScreenshot.png"
+                "thumbnail": "/bookiScreenshot.png",
+                "tags": ["Html", "CSS", "Front-end"]
             },
             {
                 "name": "Mon Vieux Grimoire",
-                "description": "Un développeur front-end vous contacte pour vous proposer de travailler avec lui. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire. Vous devez donc développer entièrement le backend from scratch.",
+                "description": "Scénario: Un développeur front-end vous contacte pour vous proposer de travailler avec lui. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire. Vous devez donc développer entièrement le backend from scratch.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_7_Backend.git",
                 "pageLink": "",
-                "thumbnail": "/MonVieuxGrimoire.png"
+                "thumbnail": "/MonVieuxGrimoire.png",
+                "tags": [
+                    "NodeJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "ExpressJS",
+                    "Back-end"
+                ]
             },
             {
                 "name": "Kasa",
-                "description": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers. Vous devez créer une application Web avec React.",
+                "description": "Scénario: Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers. Vous devez créer une application Web avec React.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_6_react_app.git",
                 "pageLink": "",
-                "thumbnail": "/Kasa.png"
+                "thumbnail": "/Kasa.png",
+                "tags": ["Html", "SCSS", "Javascript", "React", "Front-end"]
             },
             {
-                "name": "Nina Carducci",
-                "description": "Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. Vous devez débugger le site et faire de l'optimisation pour le SEO.",
+                "name": "Portfolio de Nina Carducci",
+                "description": "Scénario: Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Parmi vos prospects, il y a le site de Nina Carducci, une photographe dont vous a parlé l’un de vos amis. Vous devez débugger le site et faire de l'optimisation pour le SEO.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_5_debug_optimisation.git",
                 "pageLink": "https://codesnaker.github.io/Projet_5_debug_optimisation/",
-                "thumbnail": "/NinaCarducci.png"
+                "thumbnail": "/NinaCarducci.png",
+                "tags": ["Debugging", "SEO", "Javascript"]
             }
         ],
         "experience": [
@@ -102,8 +113,8 @@
     },
     "en": {
         "personalInformation": {
-            "title": "Web developer",
-            "description": "Initially studying electronics, I turned to computer science as it fit me better. Algorithms and programming are my passion while bigData fascinates me. Thanks to my experience, I also have some notions in cybersecurity. From the frontend to the backend, I am versatile and know how to adapt myself to projects and tools."
+            "title": "Web developer - French RNCP Level 5 diploma",
+            "description": "Initially studying electronics, I turned to computer science as it fit me better. Algorithms and programming are my passion while bigData fascinates me. Thanks to my experience, I also have some notions of cybersecurity and knowledge in data analysis. From the frontend to the backend, I am versatile and know how to adapt to projects and tools."
         },
         "contacts": {
             "email": "mattheyvintar@gmail.com",
@@ -123,8 +134,7 @@
                     "React",
                     "Sass",
                     "React-Redux",
-                    "Requests (python)",
-                    "tkinter (python)"
+                    "Requests (python)"
                 ],
                 "backend": ["node.js", "express.js", "mongoose/MongoDB"],
                 "dev": [
@@ -133,7 +143,8 @@
                     "postman",
                     "Jupyter Notebook",
                     "pyCharm",
-                    "Regular Expressions"
+                    "Pandas",
+                    "Plotly"
                 ],
                 "cyber": ["nmap"]
             },
@@ -158,39 +169,50 @@
         },
         "projects": [
             {
-                "name": "Sophie Bluel",
+                "name": "Sophie Bluel's Portfolio",
                 "description": "Having finished your latest project ahead of the deadline, you are sent as reinforcement as a front-end developer in a team currently working on designing a portfolio website for an interior architect. You have to develop: the presentation page of all the architect's projects (from a given html), the website administrator's connection page (the client) (code from scratch), the modal Windows which enables to upload new medias (code from scratch).",
                 "githubLink": "https://github.com/CodeSnaker/Javascript_dynamic_Web_Page.git",
                 "pageLink": "",
-                "thumbnail": "/sophieBluel.png"
+                "thumbnail": "/sophieBluel.png",
+                "tags": ["Html", "CSS", "Javascript", "Front-end"]
             },
             {
                 "name": "Booki",
-                "description": "The company wishes to develop a website enabling users to find lodging and activities un a city of their choice. You are tasked to integrate the website's interface with html and css.",
+                "description": "Scenario: The company wishes to develop a website enabling users to find lodging and activities un a city of their choice. You are tasked to integrate the website's interface with html and css.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_2_html_css.git",
                 "pageLink": "https://codesnaker.github.io/Projet_2_html_css/",
-                "thumbnail": "/bookiScreenshot.png"
+                "thumbnail": "/bookiScreenshot.png",
+                "tags": ["Html", "CSS", "Front-end"]
             },
             {
                 "name": "Mon Vieux Grimoire",
-                "description": "A frontend developer contacts you to work with him. It is about a small library franchise, which whishes to open a book referencing and rating website: Mon Vieux Grimoire. You have to develop the backend from scratch.",
+                "description": "Scenario: A frontend developer contacts you to work with him. It is about a small library franchise, which whishes to open a book referencing and rating website: Mon Vieux Grimoire. You have to develop the backend from scratch.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_7_Backend.git",
                 "pageLink": "",
-                "thumbnail": "/MonVieuxGrimoire.png"
+                "thumbnail": "/MonVieuxGrimoire.png",
+                "tags": [
+                    "NodeJS",
+                    "MongoDB",
+                    "Mongoose",
+                    "ExpressJS",
+                    "Back-end"
+                ]
             },
             {
                 "name": "Kasa",
-                "description": "Vous êtes développeur front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers. Vous devez créer une application Web avec React.",
+                "description": "Scenario: You are a freelance front-end developer for Kasa, a private to private rental business. You have to create a web application with React.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_6_react_app.git",
                 "pageLink": "",
-                "thumbnail": "/Kasa.png"
+                "thumbnail": "/Kasa.png",
+                "tags": ["Html", "SCSS", "Javascript", "React", "Front-end"]
             },
             {
-                "name": "Nina Carducci",
+                "name": "Nina Carducci's Portfolio",
                 "description": "You are a freelance developer and decide to put forward your SEO optimization services to new clients. Among your prospects, there is Nina Carducci's website, a photographer which a friend of yours talked about. You have to debug the website and optimize it for the SEO.",
                 "githubLink": "https://github.com/CodeSnaker/Projet_5_debug_optimisation.git",
                 "pageLink": "https://codesnaker.github.io/Projet_5_debug_optimisation/",
-                "thumbnail": "/NinaCarducci.png"
+                "thumbnail": "/NinaCarducci.png",
+                "tags": ["Debugging", "SEO", "Javascript"]
             }
         ],
         "experience": [

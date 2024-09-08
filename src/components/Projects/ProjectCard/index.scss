@@ -10,11 +10,10 @@
         width: 80%;
         height: 500px;
         border-radius: 20px;
-        border: 2px white solid;
+        border: 2px black solid;
 
         & > img {
             border-radius: inherit;
-            height: 100%;
             width: 100%;
             object-fit: cover;
             overflow: hidden;
@@ -25,13 +24,26 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        display: flex;
         text-decoration: none;
-        color: white;
+
+        p {
+            margin-top: 0;
+        }
 
         h2 {
             font-size: 20px;
         }
+    }
+
+    .project-tags {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        align-items: center;
+        align-self: center;
+        justify-content: space-around;
+        gap: 20px;
+        margin: 10px 30px;
     }
 }
 
@@ -48,6 +60,17 @@
 
         .project-text {
             text-align: justify;
+            font-size: 13px;
+
+            h2 {
+                font-size: 16px;
+            }
+        }
+
+        .project-tags {
+            width: 100%;
+            font-size: 11px;
+            flex-wrap: wrap;
         }
     }
 }

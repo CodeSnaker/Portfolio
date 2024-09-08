@@ -19,7 +19,7 @@ const Projects = () => {
     return (
         <section className='projects' id='projects'>
             <h1>{language === 'en' ? 'Projects' : 'Projets'}</h1>
-            {projectCards}
+            <div className='projects-gallery'>{projectCards}</div>
         </section>
     );
 };
